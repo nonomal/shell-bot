@@ -1,22 +1,22 @@
-run - Execute command
-enter - Send input lines to command
-type - Type keys into command
-control - Type Control+Letter
-meta - Send the next typed key with Alt
-keypad - Toggle keypad for special keys
-redraw - Force the command to repaint
-end - Send EOF to command
-cancel - Interrupt command
-kill - Send signal to process
-status - View status and current settings
-cd - Change directory
-env - Manipulate the environment
-shell - Change shell used to run commands
-resize - Change the terminal size
-setsilent - Enable / disable silent output
-setlinkpreviews - Enable / disable link expansion
-setinteractive - Enable / disable shell interactive flag
-help - Get help
-file - View and edit small text files
-upload - Upload and overwrite raw files
-r - Alias for /run or /enter
+run - <command> 执行命令
+input - <text> 将文本输入到命令执行暂停需要交互的位置
+type - <text> 将按键键入命令行
+control - <a-z> 发送 Ctrl + a-z 到命令行
+meta - (text) 给按键添加 Alt
+keypad - 打开/关闭 特殊按键键盘
+redraw - 强制命令重绘
+end - 发送 EOF 到命令行
+cancel - 中断命令执行
+kill - 强制中断命令执行
+status - 查看状态和当前设置
+cd - 更改命令行工作目录
+env - 更改环境变量
+shell - 更改用于运行命令的 shell 程序
+resize - 更改终端大小
+setsilent - 启用/禁用 命令输出
+setlinkpreviews - 启用/禁用 链接预览
+setinteractive - 启用/禁用 shell 交互式标志
+help - 获得帮助
+file - 查看和编辑小型文本文件
+upload - 上传和覆盖原始文件
+r - run 或者 input 的别名
