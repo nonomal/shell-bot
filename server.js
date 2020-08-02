@@ -16,7 +16,7 @@ var CONFIG_FILE = path.join(__dirname, "config.json");
 try {
     var config = require(CONFIG_FILE);
 } catch (e) {
-    console.error("Couldn't load the configuration file, starting the wizard.\n");
+    console.error("无法加载配置文件，进入配置向导。\n");
     require("./lib/wizard").configWizard({ configFile: CONFIG_FILE });
     return;
 }
@@ -31,11 +31,11 @@ var defaultCwd = process.env.HOME || process.cwd();
 var fileUploads = {};
 
 bot.on("updateError", function (err) {
-  console.error("Error when updating:", err);
+  console.error("错误：当更新时： ", err);
 });
 
 bot.on("synced", function () {
-  console.log("Bot ready.");
+  console.log("Bot 开始监听消息。");
 });
 
 
