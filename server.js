@@ -446,7 +446,7 @@ bot.command("grant", "revoke", function (msg, reply, next) {
   reply.reply(msg);
   if (msg.command === "grant") {
     granted[id] = true;
-    reply.html("对话 %s 现象可以使用此 Bot 。使用 /revoke 来撤销操作。", id);
+    reply.html("对话 %s 现在可以使用此 Bot 。使用 /revoke 来撤销操作。", id);
   } else {
     if (contexts[id] && contexts[id].command)
       return reply.html("错误：由于命令正在运行，因此无法撤消指定的对话。");
