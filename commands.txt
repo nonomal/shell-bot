@@ -19,4 +19,4 @@ setinteractive - 启用/禁用 shell 交互式标志
 help - 获得帮助
 file - 查看和编辑小型文本文件
 upload - 上传和覆盖原始文件
-r - run 或者 input 的别名
+r - run 或者 enter 的别名
