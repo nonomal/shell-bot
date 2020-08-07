@@ -1,5 +1,5 @@
 run - <command> 执行命令
-input - <text> 将文本输入到命令执行暂停需要交互的位置
+enter - <text> 将文本输入到命令执行暂停需要交互的位置
 type - <text> 将按键键入命令行
 control - <a-z> 发送 Ctrl + a-z 到命令行
 meta - (text) 给按键添加 Alt
